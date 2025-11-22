@@ -12,3 +12,21 @@ html { scroll-behavior: smooth }
 .project-scroll::-webkit-scrollbar { height: 10px; }
 .project-scroll::-webkit-scrollbar-track { background: transparent; }
 .project-scroll::-webkit-scrollbar-thumb { background: rgba(100,116,139,0.4); border-radius: 8px; }
+
+
+/* hide default scrollbar in the slider */
+.no-scrollbar {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;     /* Firefox */
+}
+.no-scrollbar::-webkit-scrollbar { display: none; } /* Chrome, Safari, Opera */
+
+/* soft background for the projects panel */
+#projects { 
+  /* already set via tailwind bg-slate-50 on section, but you can tune */
+}
+
+/* arrow buttons: slightly larger clickable area */
+section#projects button[title] { 
+  backdrop-filter: blur(4px);
+}
