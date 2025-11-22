@@ -10,6 +10,7 @@ export const profile = {
   title: "Software Engineer  • React.js Developer",
   location: "Bengaluru, India",
   email: "aniketneje@gmail.com",
+  github : "https://github.com/nejeaniket",
   phone: "+91 9035456598",
   bio : `React.js Developer with 2+ years of experience creating fast, responsive, and user-focused web applications. Skilled in React, Redux, JavaScript, and Tailwind, currently building secure UIs in the banking sector.`,
   about : `I’m a React.js Developer with experience building secure, responsive, and user-friendly web applications in the banking sector. I specialize in React, Redux, JavaScript, and Tailwind CSS. I enjoy solving problems, creating smooth user interfaces, and delivering high-quality features that enhance user experience and performance.`,

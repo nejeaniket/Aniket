@@ -72,12 +72,15 @@ export default function Header() {
         </motion.a>
 
         {/* EMAIL BUTTON */}
+        {/* GITHUB BUTTON */}
         <motion.a
           whileHover={{ scale: 1.05 }}
           className="hidden md:inline-block px-4 py-2 rounded-lg bg-indigo-600 text-white text-sm shadow-md"
-          href={`mailto:${profile.email}`}
+          href={profile.socials[0]?.url} // GitHub from data.js
+          target="_blank"
+          rel="noopener noreferrer"
         >
-          Email
+          GitHub
         </motion.a>
 
         {/* DARK MODE TOGGLE */}
